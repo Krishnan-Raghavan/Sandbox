@@ -1,0 +1,1 @@
+This is a test message to check setting for Git Commmit
