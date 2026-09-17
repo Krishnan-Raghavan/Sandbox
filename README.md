@@ -1,21 +1,54 @@
 # Sandbox
-A playground to check new functionalities and learn.
+
+A personal playground for learning and research — trying out new languages,
+tools, and ideas outside the pressure of a "real" project.
 
 ## Structure
 
 Organized by programming language. Each language folder splits `projects/`
-(standalone apps/tools) from `exercises/` (tutorials, katas, course work).
+(standalone apps/tools worth revisiting) from `exercises/` (tutorials,
+katas, course work, throwaway practice).
 
-- `python/` — also has `notebooks/` for exploratory/research work
-- `typescript/`
-- `javascript/`
-- `go/`
-- `databases/` — organized by engine (`postgresql/`, `mysql/`, `mongodb/`,
-  `redis/`, `sqlite/`, `firebase/` to start), each with its own
-  `projects/`/`exercises/`
-- `misc/` — multi-language or full-stack projects that don't fit a single
-  language folder, plus cross-language experiments
+```
+Sandbox/
+├── python/
+│   ├── projects/
+│   ├── notebooks/      # exploratory/research notebooks
+│   └── exercises/
+├── typescript/
+│   ├── projects/
+│   └── exercises/
+├── javascript/
+│   ├── projects/
+│   └── exercises/
+├── go/
+│   ├── projects/
+│   └── exercises/
+├── databases/           # organized by engine
+│   ├── postgresql/
+│   ├── mysql/
+│   ├── mongodb/
+│   ├── redis/
+│   ├── sqlite/
+│   └── firebase/
+│       ├── projects/
+│       └── exercises/
+└── misc/                 # multi-language / full-stack projects and
+                           # cross-language experiments that don't fit
+                           # a single language folder
+```
 
-Existing top-level folders (`seo-auditor-mcp`, `test`,
-`multi-agent-workshop-firebolt`, `testAntiGravity`) predate this structure
-and haven't been migrated yet.
+## Conventions
+
+- Each leaf folder (`projects/`, `exercises/`, or a database engine folder)
+  holds independent, self-contained pieces of work — one subfolder per
+  topic or project, with its own dependency manifest (`package.json`,
+  `requirements.txt`, `go.mod`, etc.).
+- Dependencies, build output, and environment files are not committed —
+  see `.gitignore`. Reinstall from each project's manifest as needed.
+- New languages or database engines get a new top-level folder following
+  the same `projects/`/`exercises/` split.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
