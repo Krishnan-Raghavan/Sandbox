@@ -24,6 +24,9 @@ Sandbox/
 ├── go/
 │   ├── projects/
 │   └── exercises/
+├── java/
+│   ├── projects/
+│   └── exercises/
 ├── databases/           # organized by engine
 │   ├── postgresql/
 │   ├── mysql/
