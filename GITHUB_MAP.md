@@ -4,15 +4,14 @@ A living reference of Krishnan Raghavan's GitHub account (`Krishnan-Raghavan`),
 kept for orientation as `Sandbox` grows into the home for ongoing learning
 and R&D work. Update this as the repo landscape changes.
 
-Last updated: 2026-09-17. 59 repos total: 11 original, 48 forks.
+Last updated: 2026-09-17. 59 repos total: 10 original, 49 forks.
 
 ## Original repos
 
 | Repo | Language | What it is |
 |---|---|---|
 | `Sandbox` | — | Home for ongoing learning/R&D work, organized by language |
-| `Practise` | Go/Java/JS/Node/Python | Older multi-language practice folder — overlaps with what `Sandbox` now formalizes; candidate for migration |
-| `Packt` | Jupyter Notebook | Book exercises (Data Cleaning & Preparation, Game Theory chapters) |
+| `Packt` | Jupyter Notebook | Book exercises (Data Cleaning & Preparation, Game Theory chapters) — content migrated into `Sandbox` at `python/notebooks/packt/`; original repo still live on GitHub, not yet archived |
 | `taskflow-api-demo` | — | Demo API project (`taskflow-api` subfolder) |
 | `self-healing-watchdog` | Python | Cloud Native Hackathon entry — self-healing watchdog |
 | `mini-vector-search-playground` | Python | FastAPI + embeddings semantic search (OpenAI/Ollama + ChromaDB) |
@@ -26,10 +25,10 @@ Last updated: 2026-09-17. 59 repos total: 11 original, 48 forks.
 
 Grouped by theme:
 
-- **AI agents / coding assistants**: `claude-code`, `cline`, `gemini-cli`, `codeassist`, `cognee`, `trueforge`, `sidecar`, `AI-Agent-Boilerplate`, `markitdown`, `lingo.dev`, `semantica`, `LearnWithSagar`
+- **AI agents / coding assistants**: `claude-code`, `cline`, `gemini-cli`, `codeassist`, `cognee`, `trueforge`, `sidecar`, `AI-Agent-Boilerplate`, `markitdown`, `lingo.dev`, `semantica`, `LearnWithSagar`, `ECC`
 - **Cloud-native / infra / k8s**: `kubestellar`, `kubeflex`, `ui`, `kubernetes`, `opentelemetry-collector-contrib`, `meshery`, `harbor-cli`, `witr`
 - **Security / threat intel**: `FalconEYE`, `GreedyBear`, `IntelOwl`
 - **Databases**: `FalkorDB`, `dice`
 - **Personal productivity apps**: `openslate`, `devtaskspace`, `ritual`, `Roomistry`, `AccStatMan`, `GoogleAnalytics`, `LinkedIn-Formatter`, `selfcontrol`, `smbl-journal`
-- **Dev tools / editors / misc**: `neovim`, `go-client`, `slim`, `django`, `calibre`, `winamp`, `DOOM-3`, `pion-webrtc`, `openalgo`
+- **Dev tools / editors / misc**: `neovim`, `go-client`, `slim`, `django`, `calibre`, `winamp`, `DOOM-3`, `pion-webrtc`, `openalgo`, `books`
 - **One-off / event repos**: `awesome-gdg-gde`, `io-connect-26-agentic-web-workshop`, `covid-gdgpune`, `cowin-automation-extn`
